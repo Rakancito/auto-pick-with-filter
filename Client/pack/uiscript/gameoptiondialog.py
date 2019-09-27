@@ -1,4 +1,4 @@
-// You probably have things added, just change "height" to fit the image, in my case is:
+# You probably have things added, just change "height" to fit the image, in my case is:
 
 window = {
 	"name" : "GameOptionDialog",
@@ -22,7 +22,7 @@ window = {
 			"width" : 300,
 			"height" : 25*11+8+105,  # Change for you.
 
-// Search
+# Search
 
 				{
 					"name" : "salestext_off_button",
@@ -39,7 +39,7 @@ window = {
 				},
         
         
-// Add after
+# Add after
 
 				#PickUpFilter
 					{
