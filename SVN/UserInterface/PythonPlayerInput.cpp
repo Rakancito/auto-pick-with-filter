@@ -2,7 +2,7 @@
 
 void CPythonPlayer::PickCloseItem()
 
-//For:
+// With:
 
 void CPythonPlayer::PickCloseItem()
 {
