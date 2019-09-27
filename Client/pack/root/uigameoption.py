@@ -1,24 +1,24 @@
-// Search
+# Search
 
 	def __init__(self):
 
-// Add after
+# Add after
 
 		self.RefreshPickupFilter
     
-// Search
+# Search
 
 	def __Initialize(self):
   
-// Add after
+# Add after
 
 		self.PickUpFilterList = []
     
-// Search
+# Search
 
 	def __Load_BindObject(self):
   
-// Add after
+# Add after
 
 			self.PickUpFilterList.append(GetObject("Pick_Up_FilterWeapon"))
 			self.PickUpFilterList.append(GetObject("Pick_Up_FilterArmor"))
@@ -30,12 +30,12 @@
 			self.PickUpFilterList.append(GetObject("Pick_Up_FilterStone"))
 			self.PickUpFilterList.append(GetObject("Pick_Up_FilterEtc"))
       
-// Search
+# Search
 
 		self.showsalesTextButtonList[0].SAFE_SetEvent(self.__OnClickSalesTextOnButton)
 		self.showsalesTextButtonList[1].SAFE_SetEvent(self.__OnClickSalesTextOffButton)
     
-// Add after
+# Add after
 
 		self.PickUpFilterList[0].SetToggleUpEvent(self.__OnClickPickupFilterButtonWeapon) # Weapon
 		self.PickUpFilterList[0].SetToggleDownEvent(self.__OnClickPickupFilterButtonWeapon) # Weapon
@@ -56,13 +56,13 @@
 		self.PickUpFilterList[8].SetToggleUpEvent(self.__OnClickPickupFilterButtonEtc) # Etc
 		self.PickUpFilterList[8].SetToggleDownEvent(self.__OnClickPickupFilterButtonEtc) # Etc
     
-// Search
+# Search
 
 	def __OnClickSalesTextOffButton(self):
 		systemSetting.SetShowSalesTextFlag(FALSE)
 		self.RefreshShowSalesText()		
     
-// Add after
+# Add after
 
 	def __OnClickPickupFilterButtonWeapon(self):
 		systemSetting.SetPickUpFilterWeapon(not systemSetting.IsPickUpFilterWeapon())
@@ -93,7 +93,7 @@
 		self.RefreshPickupFilter()
 	##End PickUpFilter	
   
-// Search
+# Search
 
 	def RefreshShowSalesText(self):
 		if systemSetting.IsShowSalesText():
@@ -103,7 +103,7 @@
 			self.showsalesTextButtonList[0].SetUp()
 			self.showsalesTextButtonList[1].Down()
       
-// Add after
+# Add after
 
 	def RefreshPickupFilter(self):
 		#Weapon
