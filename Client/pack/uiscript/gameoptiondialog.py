@@ -51,7 +51,7 @@ window = {
 						"x" : LINE_LABEL_X,
 						"y" : 300+2,
 
-						"text" : "Recoger Filt.",
+						"text" : uiScriptLocale.OPTION_PICKUP_TITLE,
 					},
 					{
 						"name" : "Pick_Up_FilterWeapon",
@@ -60,7 +60,7 @@ window = {
 						"x" : LINE_DATA_X,
 						"y" : 300,
 
-						"text" : "Armas",
+						"text" : uiScriptLocale.OPTION_PICKUP_WEAPONS,
 
 						"default_image" : ROOT_PATH + "middle_button_01.sub",
 						"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -73,7 +73,7 @@ window = {
 						"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH,
 						"y" : 300,
 
-						"text" : "Armaduras",
+						"text" : uiScriptLocale.OPTION_PICKUP_ARMORS,
 
 						"default_image" : ROOT_PATH + "middle_button_01.sub",
 						"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -86,7 +86,7 @@ window = {
 						"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*2,
 						"y" : 300,
 
-						"text" : "Pendientes",
+						"text" : uiScriptLocale.OPTION_PICKUP_EARS,
 
 						"default_image" : ROOT_PATH + "middle_button_01.sub",
 						"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -99,7 +99,7 @@ window = {
 						"x" : LINE_DATA_X,
 						"y" : 325,
 
-						"text" : "Cuello",
+						"text" : uiScriptLocale.OPTION_PICKUP_NECK,
 
 						"default_image" : ROOT_PATH + "middle_button_01.sub",
 						"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -112,7 +112,7 @@ window = {
 						"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH,
 						"y" : 325,
 
-						"text" : "Zapatos",
+						"text" : uiScriptLocale.OPTION_PICKUP_SHOES,
 
 						"default_image" : ROOT_PATH + "middle_button_01.sub",
 						"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -125,7 +125,7 @@ window = {
 						"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*2,
 						"y" : 325,
 
-						"text" : "Escudo",
+						"text" : uiScriptLocale.OPTION_PICKUP_SHIELDS,
 
 						"default_image" : ROOT_PATH + "middle_button_01.sub",
 						"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -138,7 +138,7 @@ window = {
 						"x" : LINE_DATA_X,
 						"y" : 350,
 
-						"text" : "Libros",
+						"text" : uiScriptLocale.OPTION_PICKUP_BOOKS,
 
 						"default_image" : ROOT_PATH + "middle_button_01.sub",
 						"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -151,7 +151,7 @@ window = {
 						"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH,
 						"y" : 350,
 
-						"text" : "Piedras",
+						"text" : uiScriptLocale.OPTION_PICKUP_STONES,
 
 						"default_image" : ROOT_PATH + "middle_button_01.sub",
 						"over_image" : ROOT_PATH + "middle_button_02.sub",
@@ -164,7 +164,7 @@ window = {
 						"x" : LINE_DATA_X+MIDDLE_BUTTON_WIDTH*2,
 						"y" : 350,
 
-						"text" : "ETC",
+						"text" : uiScriptLocale.OPTION_PICKUP_OTHER,
 
 						"default_image" : ROOT_PATH + "middle_button_01.sub",
 						"over_image" : ROOT_PATH + "middle_button_02.sub",
