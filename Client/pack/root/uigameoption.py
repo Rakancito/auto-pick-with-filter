@@ -4,7 +4,7 @@
 
 # Add after
 
-		self.RefreshPickupFilter
+		self.RefreshPickupFilter()
     
 # Search
 
